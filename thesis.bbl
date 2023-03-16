@@ -1,0 +1,32 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[王重阳\ 等(2006)王重阳, 黄药师, 欧阳峰, 洪七公, and
+  段皇帝]{cnproceed}
+王重阳, 黄药师, 欧阳峰, 等.
+\newblock 武林高手从入门到精通\allowbreak[C]//\allowbreak
+第~$N$~次华山论剑.
+\newblock 西安, 中国, 2006.
+
+\bibitem[贾宝玉\ 等(1800)贾宝玉, 林黛玉, 薛宝钗, and
+  贾探春]{cnarticle}
+贾宝玉, 林黛玉, 薛宝钗, 等.
+\newblock 论刘姥姥食量大如牛之现实意义\allowbreak[J].
+\newblock 红楼梦杂谈, 1800, 224: 260-266.
+
+\bibitem[Chu(2017)]{hithesis2017}
+CHU Y.
+\newblock Hi!thesis!,harbin institue of technology\allowbreak[J].
+\newblock Github, 2017, 001\allowbreak (0001): 000-999.
+
+\end{thebibliography}
